@@ -7,12 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Accounts/Accounts.h>
+#import <Social/Social.h>
 
 @interface ViewController : UIViewController <UINavigationControllerDelegate,UIImagePickerControllerDelegate> {
     
     UIImagePickerController *picker;
     UIImage *image;
     
+    SLComposeViewController *composer;
     
 }
 

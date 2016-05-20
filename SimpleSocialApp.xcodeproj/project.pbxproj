@@ -13,6 +13,8 @@
 		B7761AD81CEF7739001F4FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7761AD61CEF7739001F4FFA /* Main.storyboard */; };
 		B7761ADA1CEF7739001F4FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7761AD91CEF7739001F4FFA /* Assets.xcassets */; };
 		B7761ADD1CEF7739001F4FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7761ADB1CEF7739001F4FFA /* LaunchScreen.storyboard */; };
+		B7761AE51CEF8B0E001F4FFA /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7761AE41CEF8B0E001F4FFA /* Accounts.framework */; };
+		B7761AE71CEF8B28001F4FFA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7761AE61CEF8B28001F4FFA /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B7761AD91CEF7739001F4FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7761ADC1CEF7739001F4FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7761ADE1CEF7739001F4FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7761AE41CEF8B0E001F4FFA /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		B7761AE61CEF8B28001F4FFA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7761AE71CEF8B28001F4FFA /* Social.framework in Frameworks */,
+				B7761AE51CEF8B0E001F4FFA /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +48,8 @@
 		B7761AC11CEF7737001F4FFA = {
 			isa = PBXGroup;
 			children = (
+				B7761AE61CEF8B28001F4FFA /* Social.framework */,
+				B7761AE41CEF8B0E001F4FFA /* Accounts.framework */,
 				B7761ACC1CEF7738001F4FFA /* SimpleSocialApp */,
 				B7761ACB1CEF7738001F4FFA /* Products */,
 			);

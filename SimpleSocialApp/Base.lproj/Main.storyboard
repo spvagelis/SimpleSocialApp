@@ -20,7 +20,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GCl-VX-6OV">
                                 <rect key="frame" x="20" y="28" width="374" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                 <connections>
                                     <action selector="dismissKeyboard:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="o96-q0-4PH"/>
                                 </connections>

@@ -56,11 +56,26 @@
 
 
 - (IBAction)postToFacebookButtonPressed:(id)sender {
+    
+    composer = [[SLComposeViewController alloc] init];
+    composer = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeFacebook];
+    [composer setInitialText:[NSString stringWithFormat:@"%@", self.textField.text]];
+    [composer addImage:self.imageView.image];
+    [composer presentViewController:composer animated:YES completion:NULL];
+    
 }
 
 - (IBAction)sendATweetButtonPressed:(id)sender {
+    
+    composer = [[SLComposeViewController alloc] init];
+    composer = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+    [composer setInitialText:[NSString stringWithFormat:@"%@", self.textField.text]];
+    [composer addImage:self.imageView.image];
+    [composer presentViewController:composer animated:YES completion:NULL];
 }
 
 - (IBAction)dismissKeyboard:(id)sender {
+    
+    [self resignFirstResponder];
 }
 @end
